@@ -1,0 +1,31 @@
+// MAIN :
+// 
+// INTIALIZE ROI = FULL IMAGE
+//
+// FOR Frame in FRAMES
+// 	GET IMAGE
+//	
+// 	Possible PRs = Locate PR
+// 	If Possible PRs NOT NULL 
+// 		SET ROI
+//		Locate Pupil
+//	End If
+//  
+// End For (NEXT FRAME)
+// 
+// FIND HR
+// FIND ANGLE OF DEVIATION
+
+// END MAIN
+
+// Locate PR ( Image) 
+// Thresholded = Threshold For Brightest spots
+// Countours = Contour Thresholded
+// Filtered = Filter Contours BY SIZE, ECCENTRICITY
+// 
+// Return FILTERED
+// END Search For PR
+
+// Locate Pupil ( Image )
+// 
+ 
